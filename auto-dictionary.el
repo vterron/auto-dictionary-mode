@@ -134,7 +134,7 @@ This is called when `auto-dictionary-mode' changes its mind or
           '(("en" "american" "english")
             ("de" "deutsch" "german")
             ("fr" "francais" "french")
-            ("es" "español" "spanish")
+            ("es" "castellano" "spanish")
             ("sv" "svenska" "swedish")
             ("sl" "slovenian" "slovene")
             ("hu" "magyar" "hungarian")
