@@ -115,7 +115,7 @@ This is called when `auto-dictionary-mode' changes its mind or
         (adict-guess-dictionary-name (cdr names) list))))
 
 (defun adict--guess-dictionary-cons (names)
-  (cons (car names) (adict-guess-dictionary-name names)))
+  (cons (car names) (adict-guess-dictionary-name (cdr names))))
 
 (defconst adict-language-list
   '(nil "en" "de" "fr" "es" "sv" "sl" "hu" "ro" "pt" "nb" "da" "grc" "el" "hi"
