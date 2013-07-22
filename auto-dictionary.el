@@ -131,7 +131,7 @@ This is called when `auto-dictionary-mode' changes its mind or
 (defcustom adict-dictionary-list
   ;; we can't be sure of the actual dictionary names
   (mapcar 'adict--guess-dictionary-cons
-          '(("en" "english")
+          '(("en" "american" "english")
             ("de" "deutsch" "german")
             ("fr" "francais" "french")
             ("es" "español" "spanish")
